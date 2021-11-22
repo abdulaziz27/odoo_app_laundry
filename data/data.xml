@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+ 
+    <record id="laundry_cuci" model="product.product">
+        <field name="name">Cuci</field>
+        <field name="type">service</field>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+    </record>
+ 
+    <record id="laundry_gosok" model="product.product">
+        <field name="name">Gosok</field>
+        <field name="type">service</field>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+    </record>
+ 
+    <record id="laundry_cuci_gosok" model="product.product">
+        <field name="name">Cuci + Gosok</field>
+        <field name="type">service</field>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+    </record>
+ 
+    <record id="laundry_selimut" model="product.product">
+        <field name="name">Selimut</field>
+        <field name="type">service</field>
+    </record>
+ 
+    <record id="laundry_bedcpver" model="product.product">
+        <field name="name">Bed Cover</field>
+        <field name="type">service</field>
+    </record>
+ 
+</odoo>
